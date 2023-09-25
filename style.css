@@ -3,54 +3,67 @@
     margin:0px;
  
 }
-.center{
-      
-       display: flex;
-       gap: 1.1rem;
-       margin-left: 27rem;
-       margin-top: none;
-       color: green;
-       cursor: pointer;
-       font-size: 16px;
-       font-family: Arial, Helvetica, sans-serif;
+.navigation{
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
 } 
+
+.image1{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 300px;
+    height:31px;
+    padding-left: 250px;
+    gap: 1.1rem;
+}
+/* .center{
+    display: flex;
+    gap: 1.1rem;
+    margin-left: 27rem;
+    margin-top: none;
+    color: green;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}  */
 
 #About{
-color: #00b39b;
-text-decoration: none;
-font-size: 16px;
-padding-top: none;
+    display: flex;
+    color: #00b39b;
+    text-decoration: none;
+    justify-content: left;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left:auto ;
 
 } 
-#Career1{
+#Career{
     text-decoration: none;
     color: #ababab;
     cursor: pointer;
+    padding-top: 10px;
+    font-size: 20px;
+    
 }
 
-#Career1:hover {
+#Career:hover {
     color:#00b39b;
     cursor: pointer;
 
 }
 
-#Career2{
-    text-decoration:none;
+#departments{
+    text-decoration: none;
     color: #ababab;
-    cursor: text;
+    cursor: pointer;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
-#Career2:hover {
+#departments:hover {
     color:#00b39b;
     cursor: text;
-}
-
-.image1{
-    margin-top: 20px;
-    display: flex;
-    height:31px;
-    margin-top: none;
-    padding-left: 200px;
 }
 
 /* .container{
@@ -67,6 +80,31 @@ padding-top: none;
 
 } */
 
+.logo21{
+    display: flex; 
+    flex-direction: column;
+    justify-content:center;
+    padding-top: 100px;
+
+    } 
+
+.logo20{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.3%;
+}
+
+#headerp{
+    position:relative;
+    color: #00b39b;
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 500;
+    padding-top: 20px;
+   
+}
 .center-massage{
     position:relative;
     width:fit-content;
@@ -76,29 +114,6 @@ padding-top: none;
     background-color: rgb(109, 109, 150);
     font-size: 30px;
     text-align: center;
-}
-
-.logo21{
-    margin-top: 100px;
-    display: flex;
-    height:40px;
-    padding-left: 650px;
-}
-
-#headerp{
-    position:relative;
-    color: #00b39b;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 34px;
-    text-align: center;
-    font-weight: 300;
-    letter-spacing: -0.3px;
-    padding-top: px;
-    width:fit-content;
-    padding: 5px;
-    margin: auto;
-    margin-top: 20px;
-    background-color: none;
 }
 
 .box{
@@ -156,6 +171,7 @@ padding-top: none;
     text-decoration: underline;
     font-size: 15px;
     color: white;
+    margin-right: 60px;
 }
 
 .doctors{
@@ -176,6 +192,7 @@ padding-top: none;
     text-decoration: underline;
     font-size: 15px;
     color: white;
+    margin-right: 60px;
 }
 
 .clinic{
@@ -196,6 +213,7 @@ padding-top: none;
     text-decoration: underline;
     font-size: 15px;
     color: white;
+    margin-right: 70px;
 }
     
 .logounder{
@@ -218,16 +236,17 @@ padding-top: none;
 
 .textbeside{
     display: flex;
-    gap: 1.1rem;
+    /* gap: 1.1rem;
     margin-left: 300px;
-    margin-right: 300px;
+    margin-right: 300px; */
     padding-top:10px;
-    color: green;
+    color: #00b39b;
     cursor: text;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.800em;
+    font-family: 'Work Sans', sans-serif ;
+    font-weight: 300;
+    letter-spacing: -0.3px;
     justify-content: space-between;
-    
 } 
 
 /* img{
@@ -286,9 +305,6 @@ padding-top: none;
     color: #00b39b;;
        
     }
-
-    
-
     /* .star4-1{
         display: grid;
         width:450px;
@@ -307,8 +323,7 @@ padding-top: none;
     gap: 25px;
     margin-right: 60px;
     margin-top: 60px;
-    
-   }
+    }
    
 .toplogo{
       /* margin-left: 10px; */
@@ -348,9 +363,11 @@ padding-top: none;
     margin-top: none;
     margin-right: 150px;
     }
+
 .articlehead{
     color: #00b39b;
 }
+
 .article{
     text-align: center;
     margin-top: 80px;
@@ -374,6 +391,7 @@ padding-top: none;
     width: 300px;
     
 }
+
 .textwithcontainer{
     /* margin-top: 30px; */
     display: flex;
@@ -397,8 +415,6 @@ padding-top: none;
     /* border: solid red; */
     border-radius: 4px;
     font-size: 1rem;
-   
-   
 }
 
 .button{
@@ -420,8 +436,8 @@ padding-top: none;
     font-size: 15px;
     color: #333;
     margin-bottom: 0.75em;
-    font-family:'Work Sans', sans-serif 200;
-    font-weight: 300;
+    font-family: 'Work Sans', sans-serif ;
+    font-weight: 500;
     letter-spacing: -0.3px;
 }
 
